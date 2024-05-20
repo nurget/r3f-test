@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* 스크롤바 제거 */
+}
+
+#canvas-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 캔버스를 화면 중앙에 정렬 */
+}
